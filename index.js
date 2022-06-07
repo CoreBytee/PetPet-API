@@ -5,6 +5,7 @@ App.get('/', async function(Request, Response) {
     console.log('Request')
     if (Request.query.url == null) {
         Response.send('Please provide a url')
+				console.log("No url provided")
         return
     }
     var GifData
