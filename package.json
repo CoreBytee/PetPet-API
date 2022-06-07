@@ -1,0 +1,19 @@
+{
+  "name": "petpet-api",
+  "version": "1.0.0",
+  "description": "Create Pet Pet images with a simple api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pet",
+    "pet"
+  ],
+  "author": "CoreByte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pet-pet-gif": "^1.0.9"
+  }
+}
