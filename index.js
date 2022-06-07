@@ -13,6 +13,7 @@ App.get('/', async function(Request, Response) {
     {
         GifData = await Pet(Request.query.url)
         Response.set("Content-Type", "image/gif")
+				Response.set("access-control-allow-origin", "*")
         Response.status(200).send(GifData)
         console.log('Response')
     }catch
