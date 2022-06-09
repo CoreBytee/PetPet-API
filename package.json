@@ -12,9 +12,12 @@
   "dependencies": {
     "@ffmpeg/core": "^0.10.0",
     "@ffmpeg/ffmpeg": "^0.10.1",
+    "child-process": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "ffmpeg": "0.0.4",
-    "pet-pet-gif": "^1.0.9"
+    "ffmpeg-static": "^5.0.0",
+    "pet-pet-gif": "^1.0.9",
+    "wait-for-event": "^2.0.1"
   }
 }
